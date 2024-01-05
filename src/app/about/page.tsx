@@ -1,7 +1,12 @@
-const AboutPage = () => {
+import Image from "next/image";
 
-    return (
-        <div>about Page</div>
-    )
+const AboutPage = () => {
+  return (
+    <div>
+      <div className="container-about">
+        <Image src="/cityLondon.webp" alt="about" fill/>
+      </div>
+    </div>
+  );
 };
 export default AboutPage;

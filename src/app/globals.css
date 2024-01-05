@@ -32,7 +32,38 @@
   .menu-button-navbar {
     @apply block cursor-pointer md:hidden;
   }
-}
+
+  /* about */
+  .container-about{
+    @apply relative w-full h-[500px]
+  }
+
+  /* home */
+  .container-home{
+    @apply flex gap-[100px]
+  }
+  .text-container-home{
+    @apply flex-1 flex flex-col gap-[50px] 
+  }
+  .image-container-home{
+    @apply flex-1 relative
+  }
+  .brand-home{
+    @apply w-[500px] h-[50px] relative filter grayscale
+  }
+  .text-title-container-home{
+    @apply text-8xl
+  }
+  .text-desc-container-home{
+    @apply text-[20px]
+  }
+  .button-container-home{
+    @apply flex gap-5
+  }
+  .button-home{
+    @apply p-[20px] min-w-[120px] cursor-pointer border-none rounded-md bg-text text-bg  first:bg-btn first:text-text 
+  }
+} 
 
 :root {
   --bg: #0d0c22;

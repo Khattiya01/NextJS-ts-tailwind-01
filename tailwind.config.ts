@@ -14,6 +14,7 @@ const config: Config = {
       colors: {
         text: "#FFFFFF",
         bg: "#0d0c22",
+        btn: "#3673fd"
       },
       fontFamily: {
         sans: ["Graphik", "sans-serif"],
@@ -24,6 +25,10 @@ const config: Config = {
       height: {
         "calc-100vh-100px": "calc(100vh - 100px)",
       },
+      grayscale: {
+        50: '50%',
+        10: '10%'
+      }
     },
   },
   plugins: [],
