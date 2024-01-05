@@ -35,7 +35,32 @@
 
   /* about */
   .container-about{
-    @apply relative w-full h-[500px]
+    @apply flex gap-[100px] 
+  }
+  .text-container-about{
+    @apply flex-1 flex flex-col gap-[50px]
+  }
+  .image-container-about{
+    @apply flex-1 relative
+  }
+  .subtitle-about{
+    @apply text-[--btn]
+  }
+  .title-about{
+    @apply text-[54px]
+  }
+  .desc-about{
+    @apply text-[20px] font-[300px]
+  }
+  .boxs-about{
+    @apply flex items-center justify-between
+  }
+  .box-about{
+    @apply flex flex-col gap-[10px];
+    
+    h1{
+      @apply text-[--btn] text-[24px] font-bold
+    }
   }
 
   /* home */
@@ -62,6 +87,17 @@
   }
   .button-home{
     @apply p-[20px] min-w-[120px] cursor-pointer border-none rounded-md bg-text text-bg  first:bg-btn first:text-text 
+  }
+
+  /* footer */
+  .container-footer{
+    @apply h-[100px] flex items-center justify-between text-gray-500 
+  }
+  .logog-footer{
+    @apply font-bold
+  }
+  .text-footer{
+    @apply text-[12px] 
   }
 } 
 

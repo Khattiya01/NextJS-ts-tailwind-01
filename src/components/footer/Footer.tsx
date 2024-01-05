@@ -1,7 +1,12 @@
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className="container-footer">
+      <div className="logo-footer">golfdev</div>
+      <div className="text-footer">
+        golf creative thought agency @ All rights reserved.
+      </div>
+    </div>
   )
 }
 
