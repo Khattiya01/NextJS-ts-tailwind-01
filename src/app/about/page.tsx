@@ -30,7 +30,7 @@ const AboutPage = () => {
         </div>
       </div>
       <div className="image-container-about">
-        <Image src={"/about.png"} alt={"about"} fill />
+        <Image src={"/about.png"} alt={"about"} fill className=" "/>
       </div>
     </div>
   );
